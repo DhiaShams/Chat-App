@@ -15,12 +15,12 @@ const App = () => (
 
     <div className="relative z-10 w-full h-full flex flex-col items-center justify-center px-4">
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/login" element={<LoginPage />} />
-        <Route path="/profile" element={<ProfilePage />} />
+        <Route path='/' element={<HomePage />} />
+        <Route path='/login' element={<LoginPage />} />
+        <Route path='/profile' element={<ProfilePage />} />
       </Routes>
     </div>
   </div>
-)
+  )
 
 export default App
