@@ -10,7 +10,7 @@ const App = () => (
     <img
       src={assets.bgImage}
       alt="Background"
-      className="absolute left-1/2 top-1/3 -translate-x-1/2 -translate-y-1/3 w-[56rem] max-w-[80%] h-auto pointer-events-none z-0"
+      className="absolute left-1/2 top-1/3 -translate-x-1/2 -translate-y-1/3 w-[60rem] max-w-[80%] h-auto pointer-events-none z-0"
     />
 
     <div className="relative z-10 w-full h-full flex flex-col items-center justify-center px-4">
